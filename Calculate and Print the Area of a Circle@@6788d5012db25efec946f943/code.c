@@ -2,6 +2,7 @@
 int main(){
     float r;
     float pi=3.14;
-    printf("Area: %d",pi*r*r);
+    float a=pi*r*r;
+    printf("Area: %d",a);
     return 0;
 }
