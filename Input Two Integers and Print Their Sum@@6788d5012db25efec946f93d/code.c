@@ -1,9 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int a,b,c;
-    scanf("%d,%d",&a,&b);
+    int a;
+    int b;
+    scanf("%d %d",&a,&b);
+    int c;
     c=a+b;
-    printf("Sum: %d",c);
+    printf("Sum: ",c);
     return 0;
-
 }
