@@ -2,5 +2,5 @@
 int main(){
     double a;
     scanf("%lf",&a);
-    printf("You entered: %.2lf\n",a);
+    printf("You entered: %.4lf\n",a);
 }
