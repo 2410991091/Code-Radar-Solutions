@@ -1,18 +1,21 @@
 #include <stdio.h>
-int main(){
-    int a,b;
+
+int main() {
+    int a, b;
     char o;
-    scanf("%d %d %c",&a,&b,&o);
-    if(o=="+"){
-        printf("%d",a+b);
+    scanf("%d %d %c", &a, &b, &o);
+
+    if (o == '+') {
+        printf("%d", a + b);
+    } else if (o == '-') {
+        printf("%d", a - b);
+    } else if (o == '*') {
+        printf("%d", a * b);
+    } else if (o == '/') {
+        printf("%d", a / b);
+    } else {
+        printf("Invalid operator");
     }
-    else if(o=="-"){
-        printf("%d",a-b);
-    }
-    else if(o=="*"){
-        printf("%d",a*b);
-    }
-    else{
-        printf("%d",a/b);
-    }
+
+    return 0;
 }
