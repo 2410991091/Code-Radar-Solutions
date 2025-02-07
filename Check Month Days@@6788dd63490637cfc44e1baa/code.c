@@ -3,43 +3,43 @@ int main(){
     int a;
     scanf("%d",&a);
     switch(a){
-        case1:
+        case 1:
         printf("31");
         break;
-        case2:
+        case 2:
         printf("28");
         break;
-        case3:
+        case 3:
         printf("31");
         break;
-        case4:
+        case 4:
         printf("30");
         break;
-        case5:
+        case 5:
         printf("31");
         break;
-        case6:
+        case 6:
         printf("30");
         break;
-        case7:
+        case 7:
         printf("31");
         break;
-        case8:
+        case 8:
         printf("30");
         break;
-        case9:
+        case 9:
         printf("31");
         break;
-        case10:
+        case 10:
         printf("30");
         break;
-        case11:
+        case 11:
         printf("31");
         break;
-        case12:
+        case 12:
         printf("30");
         break;
         default:
-        printf("Invalid");
+        printf("Invalid month");
     }
 }
