@@ -13,16 +13,16 @@ int main(){
             printf("Wednesday");
         break;
         case 4:
-            printf("Wednesday");
+            printf("Thursday");
         break;
         case 5:
-            printf("Wednesday");
+            printf("Friday");
         break;
         case 6:
-            printf("Wednesday");
+            printf("Saturday");
         break;
         case 7:
-            printf("Wednesday");
+            printf("Sunday");
         break;
     }
 }
