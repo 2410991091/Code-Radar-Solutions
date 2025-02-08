@@ -3,10 +3,9 @@
 int main(){
     ch a;
     scanf("%c",&a);
-    if(isupper(a)){
-        printf("Uppercase");
+    if(a>='a' && a<=z){
+        printf("Lowercase");
     }
     else{
-        print("Lowercase");
+        printf("Uppercase");
     }
-}
