@@ -3,16 +3,13 @@
 int main(){
     int N;
     scanf("%d",&N);
-    int nsp=2;
-    int nst=1;
     for(int i=1;i<=N;i++){
-        for(int j=1;j<=nsp;j++){
-        printf(" ");}
-        for(int k=1;k<=nst;k++){
+        for(int j=1;j<=n-1;j++){
+            printf(" ");
+        }
+        for(int k=1;k<=2n-1;k++){
             printf("*");
         }
+        printf("\n");
     }
-    nsp=nsp-2;
-    nst=nst+2;
-    printf("\n");
 }
