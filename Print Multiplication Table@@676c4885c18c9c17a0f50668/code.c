@@ -17,7 +17,7 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= 10; i++) {
-        printf("%d X %d = %d\n", n, i, n * i);  // Added '\n' for proper formatting
+        printf("%d x %d = %d\n", n, i, n * i);  // Added '\n' for proper formatting
     }
 
     return 0;  // Good practice to return 0 in main()
