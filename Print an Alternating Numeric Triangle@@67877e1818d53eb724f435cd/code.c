@@ -1,12 +1,17 @@
 // Your code here...
 #include<stdio.h>
-int N;
-scanf("%d",&N);
-int a=0;
-for(int i=1;i<=N;i++){
+int n;
+scanf("%d",&n);
+for(int i=1;i<=n;i++){
+    int a;
     for(int j=1;j<=i;j++){
-        
-        printf("%d ",a);
+        if(i%2==0){
+            a=0;
+        }
+        else{
+            a=1;
+        }
+        printf(%d ,a);
     }
     printf("\n");
 }
