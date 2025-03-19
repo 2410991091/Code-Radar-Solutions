@@ -13,8 +13,9 @@ for(int i=1;i<=N;i++){
             a=1;
         }
         printf("%d" ,a);
+        printf("\n");
     }
 }
- printf("\n");
+//  printf("\n");
 }
 
