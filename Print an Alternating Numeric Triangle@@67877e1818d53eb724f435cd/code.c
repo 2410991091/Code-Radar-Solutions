@@ -12,7 +12,7 @@ for(int i=1;i<=N;i++){
         else{
             a=1;
         }
-        printf(%d ,a);
+        printf("%d" ,a);
     }
 }
  printf("\n");
