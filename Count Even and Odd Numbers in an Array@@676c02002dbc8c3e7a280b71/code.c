@@ -1,8 +1,10 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int N;
-    scanf("%d",&N);
+    // int N;
+    // scanf("%d",&N);
+    // int arr[N];
+    int N=sizeof(arr)/4;
     int arr[N];
     int counteven=0;
     int countodd=0;
