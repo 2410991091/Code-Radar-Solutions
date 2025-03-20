@@ -14,7 +14,7 @@ int main(){
             counteven++;
         }
         else{
-            countodd--;
+            countodd++;
         }
     }
     printf("%d %d",counteven,countodd);
