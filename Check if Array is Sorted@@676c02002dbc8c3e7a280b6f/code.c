@@ -1,17 +1,23 @@
 // Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[j]<arr[j+1]){
-                printf("Sorted");
-            }
-            else{
-                printf("Not Sorted");
-            }
+    scanf("%d", &n);
+    int arr[n]; // Assuming C99 or later
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Checking if the array is sorted
+    for (int i = 0; i < n - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            printf("Not Sorted");
+            return 0;
         }
     }
+
+    printf("Sorted");
+    return 0;
 }
