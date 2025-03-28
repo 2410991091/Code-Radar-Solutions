@@ -9,11 +9,11 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
-    int count=0;
+    //int count=0;
     for(int i=0;i<N;i++){
         if(arr[i]==arr[i+1]&&max<arr[i]){
             max=arr[i];
-            count++;
+            //count++;
         }
     }
     printf("%d",max);
