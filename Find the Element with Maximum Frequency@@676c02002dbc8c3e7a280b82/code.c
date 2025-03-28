@@ -16,5 +16,5 @@ int main(){
             count++;
         }
     }
-    if(count>1)printf("%d",max);
+    printf("%d",max);
 }
