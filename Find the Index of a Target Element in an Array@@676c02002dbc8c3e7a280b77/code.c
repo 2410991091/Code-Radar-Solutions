@@ -11,6 +11,7 @@ int main(){
     for(int i=0;i<N;i++){
         if(arr[i]==target){
             printf("%d",i);
+            break;
         }
         else{
             printf("%d",-1);
