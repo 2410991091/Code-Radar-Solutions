@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-#include<stdio.h>
+#include<limits.h>
 int max=INT_MIN;
 int main(){
     int N;
