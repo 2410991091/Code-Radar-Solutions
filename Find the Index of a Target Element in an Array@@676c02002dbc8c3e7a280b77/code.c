@@ -15,7 +15,7 @@ int main(){
         }
         else{
             printf("%d",-1);
-            braek;
+            break;
         }
     }
 
