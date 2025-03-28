@@ -13,7 +13,7 @@ int main(){
     for(int i=0;i<N;i++){
         if(max<arr[i]){
         smax=max;
-        max=arr[i]}
+        max=arr[i];}
     }
     printf("%d",smax);
 }
