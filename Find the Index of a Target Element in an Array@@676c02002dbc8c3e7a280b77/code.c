@@ -43,7 +43,7 @@ int main() {
     }
 
     if (!found) {
-        printf("-1\n"); // Print -1 if target is not found
+        printf("-1"); // Print -1 if target is not found
     }
 
     return 0;
