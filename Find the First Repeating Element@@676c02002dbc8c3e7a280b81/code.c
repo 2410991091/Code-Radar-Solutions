@@ -17,7 +17,7 @@ int main(){
         
         }
     }
-    if(check==i)printf("%d",arr[i]);
+    if(check==1)printf("%d",arr[i]);
     else{
         printf("%d",a);
     }
