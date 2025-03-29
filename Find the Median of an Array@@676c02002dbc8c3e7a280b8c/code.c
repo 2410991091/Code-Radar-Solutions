@@ -51,13 +51,13 @@ int main() {
     // Sort the array
     sortArray(arr, n);
 
-    double median;
+    int median;
     if (n % 2 != 0) {
         median = arr[n / 2];
     } else {
         median = (arr[n / 2 - 1] + arr[n / 2]) / 2.0;
     }
 
-    printf("Median: %.2f\n", median);
+    printf("%d", median);
     return 0;
 }
