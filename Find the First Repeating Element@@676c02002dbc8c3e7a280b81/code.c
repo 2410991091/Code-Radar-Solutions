@@ -15,6 +15,7 @@ int main(){
             if(arr[i]==arr[j]){
                 b=arr[i];
                 check=1;
+                break;
             }
         
         }
