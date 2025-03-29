@@ -9,15 +9,17 @@ int main(){
     }
     int check=0;
     int a=-1;
+    int b;
     for(int i=0;i<N;i++){
         for(int j=i+1;j<N;j++){
             if(arr[i]==arr[j]){
+                b=arr[i];
                 check=1;
             }
         
         }
     }
-    if(check==1)printf("%d",arr[i]);
+    if(check==1)printf("%d",b);
     else{
         printf("%d",a);
     }
