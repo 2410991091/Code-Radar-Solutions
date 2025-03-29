@@ -9,16 +9,20 @@ int main(){
     }
     int target;
     scanf("%d",&target);
+    int a=-1;
+    int idx;
     int check=0;
     for(int i=0;i<N;i++){
         if(arr[i]==target){
-            printf("%d",i);
-            break;
-        }
-        else{
-            printf("%d",-1);
+            idx=i;
+            check=1;
             break;
         }
     }
+    if(check==0)printf("%d",-1);
+    else{
+        printf("%d",i);
+    }
+
 
 }
