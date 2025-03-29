@@ -7,11 +7,18 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
+    int check=0;
+    int a=-1;
     for(int i=0;i<N;i++){
         for(int j=i+1;j<N;j++){
             if(arr[i]==arr[j]){
-                printf("%d",arr[i]);
+                check=1;
             }
+        
         }
+    }
+    if(check==i)printf("%d",arr[i]);
+    else{
+        printf("%d",a);
     }
 }
