@@ -1,6 +1,6 @@
 // Your code here...
 void fibonacciSeries(int n){
-    int fibonacci(int n) {
+    {
     if (n <= 1)  // Base cases
         return n;
     return fibonacci(n - 1) + fibonacci(n - 2);  // Recursive call
