@@ -9,13 +9,15 @@ void reverse(int arr[],int si,int ei){
     return;
 }
 int main(){
-    int N,K;
-    scanf("%d %d",&N,&K);
-    K=K%N;
+    int N;
+    scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
+    int K;
+    scanf("%d",&K);
+    K=K % N;
     reverse(arr,0,N-1);
     reverse(arr,0,K-1);
     reverse(arr,K,N-1);
