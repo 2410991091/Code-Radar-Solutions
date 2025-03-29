@@ -18,7 +18,7 @@ int main() {
     }
 
     printf("%d", median);
-    return 0;
+    return 0;}
 
 
 // #include<stdio.h>
