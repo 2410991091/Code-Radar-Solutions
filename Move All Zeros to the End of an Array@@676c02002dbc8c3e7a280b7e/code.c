@@ -21,7 +21,7 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
-    
+    swapzero(arr,N);
      for(int i=0;i<N;i++){
         printf("%d ",arr[i]);
     }
