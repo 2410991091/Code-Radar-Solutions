@@ -15,6 +15,7 @@ int main(){
             min=arr[i];
         }
     }
+    int b=min;
     int fre=0;
     int check=0;
     int a;
@@ -31,7 +32,7 @@ int main(){
         printf("%d",a);
     }
     else{
-        printf("%d",min);
+        printf("%d",b);
     }
 
 
