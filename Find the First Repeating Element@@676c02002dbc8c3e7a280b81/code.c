@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     int check=0;
     int a=-1;
@@ -20,6 +20,7 @@ int main(){
         
         }
     }
+    end:
     if(check==1)printf("%d",b);
     else{
         printf("%d",a);
