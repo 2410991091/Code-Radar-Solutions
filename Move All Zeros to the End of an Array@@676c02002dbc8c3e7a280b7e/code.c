@@ -2,7 +2,7 @@
 #include<stdio.h>
 void swapzero(int arr[],int N){
     int i=0;
-    int j=n-1;
+    int j=N-1;
       for(int i=0;i<N;i++){
         if(arr[i]==0){
             int temp=arr[i];
