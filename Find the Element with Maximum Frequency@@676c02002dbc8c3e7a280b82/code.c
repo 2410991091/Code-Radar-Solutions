@@ -9,13 +9,13 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
-    int min=INT_MIN;
+    int min=INT_MAX;
     for(int i=0;i<N;i++){
         if(min>arr[i]){
             min=arr[i];
         }
     }
-    int b=min;
+   
     int fre=0;
     int check=0;
     int a;
@@ -32,7 +32,7 @@ int main(){
         printf("%d",a);
     }
     else{
-        printf("%d",b);
+        printf("%d",min);
     }
 
 
