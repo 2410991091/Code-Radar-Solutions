@@ -12,8 +12,8 @@ int main(){
     int smax=INT_MIN;
      for(int i=0;i<N;i++){
         if(smax<arr[i]){
-            max==smax;
-            max==arr[i];
+            max=smax;
+            max=arr[i];
         }
     }
      
