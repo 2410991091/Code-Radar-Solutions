@@ -5,7 +5,7 @@ int fibonacciSeries(int n){
       int fibnm1=fib(n-1);
       int fibnm2=fib(n-2);
       int fibn=fib(n-1)+fib(n-2);
-      printf("%d",fibn);
+      printf("%d ",fibn);
       return;
 }
 
