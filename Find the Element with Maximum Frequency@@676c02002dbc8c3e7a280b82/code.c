@@ -21,7 +21,7 @@ int main(){
     int a;
     for(int i=0;i<N;i++){
         for(int j=i+1;j<N;j++){
-            if(arr[i]=arr[j]){
+            if(arr[i]==arr[j]){
                 fre++;
                 a=arr[i];
                 check=1;
