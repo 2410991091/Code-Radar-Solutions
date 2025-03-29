@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 int fibonacciSeries(int n){
       if(n==0)return 0;
       if(n==1)return 1;
@@ -9,7 +10,7 @@ int fibonacciSeries(int n){
       return;
 }
 
-#include<stdio.h>
+
 int main(){
     int n;
     scanf("%d",&n);
