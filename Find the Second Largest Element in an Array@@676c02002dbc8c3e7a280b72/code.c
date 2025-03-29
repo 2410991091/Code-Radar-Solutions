@@ -11,15 +11,12 @@ int main(){
     int max=INT_MIN;
     int smax=INT_MIN;
      for(int i=0;i<N;i++){
-        if(max<arr[i]){
+        if(smax<arr[i]){
+            max==smax;
             max==arr[i];
         }
     }
-     for(int i=0;i<N;i++){
-        if(smax<arr[i] && arr[i]!=max){
-            smax==arr[i];
-        }
-    }
+     
     printf("%d",smax);
 
 
