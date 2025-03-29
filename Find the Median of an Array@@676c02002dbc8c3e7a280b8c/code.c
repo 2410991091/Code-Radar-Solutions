@@ -14,6 +14,7 @@ int main() {
       for (int i = 0; i < n; i++) {
     if(i%2!=0){
         median=n/2+1;
+        median=arr[i];
     }
     else{
         median=(n/2)+(n/2+1);
