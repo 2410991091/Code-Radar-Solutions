@@ -19,9 +19,9 @@ int main(){
             break;
         }
     }
-    if(check==0)printf("%d",-1);
+    if(check==0)printf("%d",a);
     else{
-        printf("%d",i);
+        printf("%d",idx);
     }
 
 
