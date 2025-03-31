@@ -6,6 +6,8 @@ int isPalindrome(int arr[], int N) {
     int i = 0, j = N - 1;
     
     while (i < j) {
+        i++;
+        j--;
         if (arr[i] != arr[j]) {
             return 0; // Not a palindrome
         }
