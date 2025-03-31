@@ -1,27 +1,36 @@
 // Your code here...
-#include<stdio.h>
-void reverse(int arr[],int N){
-    int i=0;
-    int j=N-1;
-    while(i<j){
-    int temp=arr[i];
-    arr[i]=arr[j];
-    arr[j]=temp;
-    }
-    if(arr[N]=reverse(arr,N)){
-        printf("YES");
-    }
-    else{
-        printf("NO");
-    }
-}
-int main(){
-    int N;
-    scanf("%d",&N);
-    int arr[N];
-    for(int i=0;i<N;i++){
-        scanf("%d",arr[i]);
-    }
-    reverse(arr,N);
+#include <stdio.h>
+
+// Function to check if an array is a palindrome
+int isPalindrome(int arr[], int N) {
+    int i = 0, j = N - 1;
     
+    while (i < j) {
+        if (arr[i] != arr[j]) {
+            return 0; // Not a palindrome
+        }
+        i++;
+        j--;
+    }
+    
+    return 1; // Palindrome
+}
+
+int main() {
+    int N;
+    scanf("%d", &N);
+    
+    int arr[N];
+    
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &arr[i]); // Fix: Use &arr[i]
+    }
+
+    if (isPalindrome(arr, N)) {
+        printf("YES\n");
+    } else {
+        printf("NO\n");
+    }
+
+    return 0;
 }
