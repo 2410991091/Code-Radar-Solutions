@@ -22,37 +22,41 @@
 // }
 
 
-
 #include <stdio.h>
 #include <limits.h>
 
 int main() {
     int max = INT_MIN;
     int n;
-
-    // Taking input for array size
     scanf("%d", &n);
-
+    
     int arr[n];
-
-    // Taking input for array elements
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]); // Removed extra space
+        scanf("%d", &arr[i]);
     }
 
     // Finding the maximum element
     for (int i = 0; i < n; i++) {
-        if (arr[i] > max) {
+        if (max < arr[i]) {
             max = arr[i];
         }
     }
 
-    // Checking for consecutive max values
-    for (int i = 0; i < n - 1; i++) {  // Avoid out-of-bounds error
-        if (arr[i] == arr[i + 1] && arr[i] == max) {
-            printf("%d ", arr[i]);
+    // Counting occurrences of max
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == max) {
+            count++;
         }
+    }
+
+    // Printing max if it appears more than once
+    if (count > 1) {
+        printf("%d", max);
     }
 
     return 0;
 }
+
+
+
