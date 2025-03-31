@@ -9,11 +9,14 @@ int isPalindrome(int arr[], int N) {
         if (arr[i] != arr[j]) {
             return 0; // Not a palindrome
         }
-        i++;
-        j--;
+       // i++;
+     //   j--;
+
+    else{
+        return 1;
     }
     
-    return 1; // Palindrome
+    // return 1; // Palindrome
 }
 
 int main() {
