@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int reverse(int arr[],int N){
+void reverse(int arr[],int N){
     int i=0;
     int j=N-1;
     int temp=arr[i];
