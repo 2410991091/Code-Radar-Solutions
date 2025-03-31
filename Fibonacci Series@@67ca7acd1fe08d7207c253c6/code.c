@@ -34,7 +34,7 @@ void fibonacciSeries(int n) {
         a = b;
         b = temp;
     }
-    printf("\n"); // Formatting improvement
+   // printf("\n"); // Formatting improvement
 }
 
 int main() {
