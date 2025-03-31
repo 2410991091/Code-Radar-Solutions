@@ -46,7 +46,7 @@ int main() {
         return 0;
     }
 
-    printf("Fibonacci Series: ");
+    //printf("Fibonacci Series: ");
     fibonacciSeries(n);
 
     return 0;
