@@ -1,5 +1,5 @@
-Loading Code...#include <stdio.h>
-
+// Loading Code...#include <stdio.h>
+#include <stdio.h>
 // Function to check if an array is a palindrome
 int isPalindrome(int arr[], int N) {
     int i = 0, j = N - 1;
