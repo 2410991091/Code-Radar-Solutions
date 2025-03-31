@@ -17,8 +17,8 @@ int main() {
         printf("Invalid input\n");
         return 0;
     }
-
-   fibonacciSeries(n);
-
+    for(int i=0;i<n;i++){
+        printf("%d ", fibonacciSeries(i));
+    }
     return 0;
 }
