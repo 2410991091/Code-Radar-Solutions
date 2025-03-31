@@ -1,25 +1,18 @@
-// Your code here...
-#include <stdio.h>
+Loading Code...#include <stdio.h>
 
 // Function to check if an array is a palindrome
 int isPalindrome(int arr[], int N) {
     int i = 0, j = N - 1;
     
     while (i < j) {
-        // i++;
-        // j--;
         if (arr[i] != arr[j]) {
             return 0; // Not a palindrome
         }
-       // i++;
-     //   j--;
-
-    else{
-        return 1;
+        i++;
+        j--;
     }
     
-    // return 1; // Palindrome
-}
+    return 1; // Palindrome
 }
 
 int main() {
