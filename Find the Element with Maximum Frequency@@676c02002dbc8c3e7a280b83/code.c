@@ -9,13 +9,21 @@ int main(){
     for (int i = 0; i < n; i++) {
         scanf("%d ", &arr[i]);
     }
-    for(int i=0;i<n;i++){
-       if(max<arr[i]){
-        max=arr[i];
-       }
-    }   
-    for(int i=0;i<n-1;i++){
-        if(arr[i]==arr[i+1] && arr[i] ==max){
+    int count=0;
+    for (int i = 0; i < n; i++) {
+      if(max<arr[i]){
+        arr[i]=max;
+      }
+    }
+
+     for (int i = 0; i < n; i++) {
+        or (int j = i+1; j < n; j++)
+      if(arr[i]==arr[j]){
+        count++;
+      }
+    }
+    for (int i = 0; i < n; i++) {
+        if(arr[i]=arr[i+1] && count=max){
             printf("%d",arr[i]);
         }
     }
