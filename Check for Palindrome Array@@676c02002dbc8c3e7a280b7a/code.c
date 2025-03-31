@@ -18,6 +18,7 @@ int isPalindrome(int arr[], int N) {
     
     // return 1; // Palindrome
 }
+}
 
 int main() {
     int N;
