@@ -14,7 +14,7 @@ int main() {
 
     // Start from i = 1 to avoid division by zero
     for(int i = 1; i < n; i++) {
-        if(arr[i] % i == 0) {
+        if(arr[i] % i != 0) {
             count++;
         }
     }
